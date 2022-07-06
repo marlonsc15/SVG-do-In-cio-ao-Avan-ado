@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="estilo.css">
+    <title>Fill e Stroke</title>
+</head>
+<body>
+    
+    <h1>Fill e Stroke</h1>
+
+    <style>
+
+        .circle {
+            stroke: #000;
+            stroke-width: 5;
+        }
+
+        .circle-1 {
+            fill:red;
+            fill-opacity: .3;
+            stroke-dasharray: 10 20;
+        }
+
+        .circle-2 {
+            fill:blue;
+            fill-opacity: .8;
+            stroke-dasharray: 20 10;
+        }
+
+        .circle-3 {
+            fill:green;
+            fill-opacity: .6;
+            stroke-dasharray: 5 40;
+        }
+
+    </style>
+
+    <svg width="500" height="150" viewBox="0 0 500 150">
+        <circle class="circle circle-1" r="55" cx="200" cy="70"/>
+        <circle class="circle circle-2" r="55" cx="250" cy="70"/>
+        <circle class="circle circle-3" r="55" cx="300" cy="70"/>    
+    </svg>
+</body>
+</html>
